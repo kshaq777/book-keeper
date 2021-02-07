@@ -13,6 +13,9 @@ export default {
   addBook: function(id, body) {
     return axios.post("/api/books/" + id, body)
   },
+  setBook: function(id, body) {
+    return axios.put("/api/books/" + id, body)
+  },
   // Deletes the user with the given id
   deleteUser: function(id) {
     return axios.delete("/api/users/" + id);

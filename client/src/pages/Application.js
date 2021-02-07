@@ -9,7 +9,7 @@ import PasswordReset from "./PasswordReset";
 
 import Nav from "../components/Nav";
 import Search from "./Search";
-import Dashboard from "./Dashboard"
+import Library from "./Library"
 
 function Application() {
   const user = useContext(UserContext);
@@ -25,8 +25,8 @@ function Application() {
           <Route exact path="/search">
                 <Search />
           </Route>
-          <Route exact path="/dashboard">
-                <Dashboard />
+          <Route exact path="/library">
+                <Library />
           </Route>
         </Switch>
       </Router>

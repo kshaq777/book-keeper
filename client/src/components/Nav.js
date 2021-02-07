@@ -43,14 +43,14 @@ const location = useLocation();
           </div>
           <div className="nav-item">
             <Link
-              to="/dashboard"
+              to="/library"
               className={
-                location.pathname === "/dashboard"
+                location.pathname === "/library"
                   ? "nav-link active"
                   : "nav-link"
               }
             >
-              Dashboard
+              Library
             </Link>
           </div>
           <div className="nav-item">

@@ -23,7 +23,8 @@ const userSchema = new Schema({
       previewLink: {type: String, required: true, unique: false},
       infoLink: {type: String, required: true, unique: false},
       googleRating: {type: Number, required: true, unique: false},
-      myRating: {type: Number, required: true, default: 0}
+      myRating: {type: Number, required: true, default: 0},
+      read: {type: Boolean, required: true, default: false}
     }
   ]
 });

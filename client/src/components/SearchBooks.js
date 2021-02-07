@@ -4,7 +4,7 @@ function SearchBook(props) {
     <div key={props.book.id} className="row shadow bookCard">
       <div className="col-12 col-lg-4">
         <img
-          style={{ height: "50%", width: "50%" }}
+          style={{ maxWidth: "50%" }}
           className="card-img-top"
           src={
             book.imageLinks.thumbnail
