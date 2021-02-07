@@ -23,5 +23,5 @@ app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
 
-// const env = require('dotenv');
-// env.config();
+const env = require('dotenv');
+env.config();

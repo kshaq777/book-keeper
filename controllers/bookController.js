@@ -14,7 +14,7 @@ module.exports = {
         db.User.updateOne(
             {_id: mongojs.ObjectID(req.params.id)},
             {
-                $push: { products: req.body }
+                $push: { books: req.body }
             }
         )
         .then(dbModel => { res.json(dbModel) })

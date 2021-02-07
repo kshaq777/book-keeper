@@ -14,10 +14,16 @@ const userSchema = new Schema({
         }
       },
       authors: [],
+      title: { type: String, required: true, unique: false},
       description: { type: String, required: true, unique: false},
       image: { type: String, required: true, unique: false},
-      link: { type: String, required: true, unique: false},
-      title: { type: String, required: true, unique: false},
+      pageCount: {type: Number, required: true, unique: false},
+      publishDate: {type: Date, required: true, unique: false},
+      googleBooksKey: {type: Number, required: true, unique: false},
+      previewLink: {type: String, required: true, unique: false},
+      infoLink: {type: String, required: true, unique: false},
+      googleRating: {type: Number, required: true, unique: false},
+      myRating: {type: Number, required: true, default: 0}
     }
   ]
 });

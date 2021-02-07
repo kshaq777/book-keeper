@@ -1,0 +1,19 @@
+body {
+    background-color: lightgray!important;
+}
+
+.navbar .navbar-expand-lg .navbar-light {
+    color: #f7f7f7;
+}
+
+.btn-main {
+    color: #fff!important;
+    background-color: #563D7C!important;
+    border-color: #57364E!important;
+}
+
+.bookCard {
+    background-color: white;
+    padding: 3rem;
+    margin: 2rem 0rem;
+}

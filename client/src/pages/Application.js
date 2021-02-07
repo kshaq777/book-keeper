@@ -7,6 +7,7 @@ import SignUp from "./SignUp";
 import ProfilePage from "./ProfilePage";
 import PasswordReset from "./PasswordReset";
 
+import Nav from "../components/Nav";
 import Search from "./Search";
 import Dashboard from "./Dashboard"
 
@@ -16,6 +17,7 @@ function Application() {
   return (
         user ?
         <Router>
+          <Nav/>
         <Switch>
           <Route exact path="/">
                 <ProfilePage />
