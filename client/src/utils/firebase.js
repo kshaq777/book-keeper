@@ -3,13 +3,13 @@ import "firebase/auth";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBqWWbITd7sg19v1V3TiG8mn-tTA_GndFQ",
+  apiKey: process.env.REACT_APP_FIREBASE_APIKEY,
   authDomain: "book-keeper-59419.firebaseapp.com",
   projectId: "book-keeper-59419",
   storageBucket: "book-keeper-59419.appspot.com",
-  messagingSenderId: "577629435671",
-  appId: "1:577629435671:web:424fad1b7674c6a511a952",
-  measurementId: "G-EKLCHVD0DH"
+  messagingSenderId: process.env.REACT_APP_FIREBASE_SENDERID,
+  appId: process.env.REACT_APP_FIREBASE_APPID,
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT
 };
 
 // Initialize Firebase
